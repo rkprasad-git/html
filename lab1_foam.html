@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Foam</title>
+  </head>
+  <body>
+
+    <form>
+      <!-- Name -->
+      <label for="name">Name :<input type="text" required placeholder="Enter your name" maxlength="25" /></label>
+      <br/><br/>
+      <!-- Email -->
+      <label for="name">Email :<input type="text" autofocus required placeholder="test@example.com" /></label>
+      <br/><br/>
+      <!-- password -->
+      <label for="name">Password : <input type="password" required maxlength="6" /></label>
+      <br/><br/>
+      <!-- category -->
+      <label for="category">Category</label>
+      <select name="category">
+        <option value="student" required>Student</option>
+        <option value="employee">Employee</option>
+        <option value="freelancer" selected="selected">Freelancer</option>
+        </select>
+      <br/><br/>
+      <!-- date  selection -->
+      <label for="event_date">Event Date <input type="date" required/></label>
+      <br/><br/>
+      <!-- Ticket selection -->
+      <p>Choose No.Of Tickets</p>
+      <input type="radio" value="1 Ticket" /><label for="1 Ticket">1 Ticket</label>
+      <br/>
+      <input type="radio" value="2 Ticket" checked /><label for="2 Ticket">2 Ticket</label>
+      <br/>
+      <input type="radio" value="3 Ticket" /><label for="3 Ticket">3 Ticket</label>
+      <br/><br/>
+      <!-- Payment Method -->
+      <p>Payment Method</p>
+      <input type="checkbox" required /><label for="online_payment">Online Payment</label>
+      <br/><br/>
+      <!-- Text box -->
+      <label for="notes">Notes :</label>
+      <br/>
+      <textarea name="notes" cols="30" rows="10" placeholder="Enter Notes Here"></textarea>
+      <br/><br/>
+      <!-- submit button  -->
+      <input type="submit"/>
+      <br/><br/>
+      <!-- reset button  -->
+      <input type="reset"/>
+    </form>
+  </body>
+</html>
